@@ -2,3 +2,4 @@ main
 *.o
 *.out
 *.exe
+bin/

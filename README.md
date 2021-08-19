@@ -1,8 +1,9 @@
 > *Let everyone enjoy the fun of fuck*
+> 
 > -- Chi_Tang
 
-# `FuckMemory`
-This is a **GREAT** program to fuck your memory or Swap.
+# <center> FuckMemory </center>
+<center> This is a **GREAT** program to fuck your memory or Swap <center>
 
 ## Installation
 ### Dependencies

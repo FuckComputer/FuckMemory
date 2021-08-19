@@ -2,8 +2,7 @@
 #include <cstring>
 using namespace std;
 
-#define FILL_SIZE 1024 * 1024 * 100
-
+float FILL_SIZE;
 void fuckMemory();
 void fuckMemoryWithoutMemset();
 
@@ -13,6 +12,9 @@ int main()
 	cout << "Start FuckMemory(1)" << endl << "Start FuckMemory without memset(2)" << endl;
 	cout << endl << "Choose a mode(Default is \"Start FuckMemory\"): ";
 	cin >> choose;
+	cout << "Type a default memory size(MB): ";
+	cin >> FILL_SIZE;
+	FILL_SIZE *= 1024*1024;
 	switch(choose)
 	{
 		case 1:

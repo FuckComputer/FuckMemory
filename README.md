@@ -2,8 +2,8 @@
 > 
 > -- Chi_Tang
 
-# <center> FuckMemory </center>
-<center> This is a **GREAT** program to fuck your memory or Swap <center>
+# FuckMemory
+This is a **GREAT** program to fuck your memory or Swap
 
 ## Installation
 ### Dependencies

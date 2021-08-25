@@ -10,7 +10,13 @@ This is a **GREAT** program to fuck your memory or Swap
 - make
 - g++
 ### Linux & macOS
-Just use `sudo make install` and `FuckMemory` will automatically install in your `/usr/local/share/fuckmem`.
+Just use
+
+```shell
+sudo make install
+```
+
+then,  `FuckMemory` will automatically install in your `/usr/local/share/fuckmem`.
 
 ### Windows
 Use g++ in cmd to compile `src/main.cpp` and run it.

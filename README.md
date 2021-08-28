@@ -24,6 +24,9 @@ Use any AUR tool to install the package `fuckmemory`.
 ### Windows
 Use g++ in cmd to compile `src/main.cpp` and run it.
 
+### Android Termux
+Like Windows, use g++ to compile `src/main.cpp` and run it.
+
 ## Uninstallation
 ### Linux & macOS
 Use

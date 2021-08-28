@@ -16,13 +16,23 @@ Just use
 sudo make install
 ```
 
-then,  `FuckMemory` will automatically install in your `/usr/local/share/fuckmem`.
+then,  `FuckMemory` will automatically be installed in `/usr/local/bin/fuckmem`.
 
 ### Windows
 Use g++ in cmd to compile `src/main.cpp` and run it.
 
+## Uninstallation
+### Linux & macOS
+Use
+
+```shell
+sudo make uninstall
+```
+
+and FuckMemory will be deleted from your computer.
+
 ## Usage
-wip
+WIP
 
 ## License
 GPL-3.0

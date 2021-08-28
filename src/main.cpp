@@ -20,7 +20,7 @@ int main()
 		memsize += FILL_SIZE;
 		int *buf = new int[FILL_SIZE >> 2];
 		if (choose != '2')
-			fill(buf, buf + FILL_SIZE >> 2, rand());
+			fill(buf, buf + FILL_SIZE / 4, rand());
 		cout << "Current memsize: " << memsize / 1024 / 1024 << " MB";
 	}
 

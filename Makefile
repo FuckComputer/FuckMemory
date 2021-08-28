@@ -1,7 +1,7 @@
 install:
 	g++ ./src/main.cpp
-	mkdir -p $pkgdir/usr/bin
-	mv a.out $pkgdir/usr/bin/fuckmem
+	mkdir -p ../../pkg/usr/bin
+	mv a.out ../../pkg/usr/bin/fuckmem
 	echo "Install successfully"
 uninstall:
 	rm /usr/bin/fuckmem

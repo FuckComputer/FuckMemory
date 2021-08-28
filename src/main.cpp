@@ -11,16 +11,14 @@ int main()
 	int choose;
 	cout << "Start FuckMemory(1)" << endl << "Start FuckMemory without memset - Harmless(2)" << endl;
 	cout << endl << "Choose a mode(Default is \"Start FuckMemory\"): ";
-	cin >> choose;
+	choose=getchar();
 	cout << "Type a default memory size(MB): ";
 	cin >> FILL_SIZE;
 	FILL_SIZE *= 1024*1024;
 	switch(choose)
 	{
-		case 1:
-				fuckMemory();
-		case 2:
-				fuckMemoryWithoutMemset();
+		case '2':
+				fuckMemoryWithoutMemset();break;
 		default:
 				fuckMemory();
 	}

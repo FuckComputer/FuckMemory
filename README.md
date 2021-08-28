@@ -1,4 +1,4 @@
-> *Let everyone enjoy the fun of fuck*
+> *Let everyone enjoy the fun of fucking*
 > 
 > -- Chi_Tang
 

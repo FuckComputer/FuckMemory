@@ -18,6 +18,9 @@ sudo make install
 
 then,  `FuckMemory` will automatically be installed in `/usr/bin/fuckmem`.
 
+### AUR
+Use any AUR tool to install the package `fuckmemory`.
+
 ### Windows
 Use g++ in cmd to compile `src/main.cpp` and run it.
 
@@ -30,6 +33,15 @@ sudo make uninstall
 ```
 
 and FuckMemory will be deleted from your computer.
+
+### AUR
+If you are using the AUR version of FuckMemory, just run
+
+```shell
+pacman -R fuckmemory
+```
+
+as root to uninstall it.
 
 ## Usage
 WIP

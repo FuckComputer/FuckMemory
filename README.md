@@ -21,6 +21,9 @@ then,  `FuckMemory` will automatically be installed in `/usr/bin/fuckmem`.
 ### Windows
 Use g++ in cmd to compile `src/main.cpp` and run it.
 
+### Android Termux
+Like Windows, use g++ to compile `src/main.cpp` and run it.
+
 ## Uninstallation
 ### Linux & macOS
 Use

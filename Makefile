@@ -1,3 +1,5 @@
+fuckmem: ./src/main.cpp
+	g++ -o fuckmem ./src/main.cpp
 install:
 	g++ ./src/main.cpp
 	mkdir -p /usr/bin

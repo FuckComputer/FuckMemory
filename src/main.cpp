@@ -9,7 +9,7 @@ void fuckMemoryWithoutMemset();
 int main()
 {
 	int choose;
-	cout << "Start FuckMemory(1)" << endl << "Start FuckMemory without memset(2)" << endl;
+	cout << "Start FuckMemory(1)" << endl << "Start FuckMemory without memset - Harmless(2)" << endl;
 	cout << endl << "Choose a mode(Default is \"Start FuckMemory\"): ";
 	cin >> choose;
 	cout << "Type a default memory size(MB): ";

@@ -2,7 +2,7 @@
 #include <cstring>
 using namespace std;
 
-float FILL_SIZE;
+int FILL_SIZE;
 void fuckMemory();
 void fuckMemoryWithoutMemset();
 

@@ -5,3 +5,5 @@ install:
 	echo "Install successfully"
 uninstall:
 	rm /usr/local/bin/fuckmem
+	echo
+	echo "Uninstall successfully"

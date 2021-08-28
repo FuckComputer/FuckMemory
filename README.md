@@ -16,7 +16,7 @@ Just use
 sudo make install
 ```
 
-then,  `FuckMemory` will automatically be installed in `/usr/bin/fuckmem`.
+then,  `FuckMemory` will automatically be installed in `/usr/bin/fuckmemory`.
 
 ### AUR
 Use any AUR tool to install the package `fuckmemory`.

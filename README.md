@@ -16,7 +16,7 @@ Just use
 sudo make install
 ```
 
-then,  `FuckMemory` will automatically be installed in `/usr/local/bin/fuckmem`.
+then,  `FuckMemory` will automatically be installed in `/usr/bin/fuckmem`.
 
 ### Windows
 Use g++ in cmd to compile `src/main.cpp` and run it.

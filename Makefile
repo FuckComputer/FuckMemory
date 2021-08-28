@@ -1,7 +1,7 @@
 install:
 	g++ ./src/main.cpp
-	mv a.out /usr/local/bin/fuckmem
+	mv a.out /usr/bin/fuckmem
 	echo "Install successfully"
 uninstall:
-	rm /usr/local/bin/fuckmem
+	rm /usr/bin/fuckmem
 	echo "Uninstall successfully"

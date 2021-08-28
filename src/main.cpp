@@ -31,10 +31,12 @@ void fuckMemoryWithoutMemset()
 	memsize = 0;
 	while(1)
 	{
+		if(getchar() != '\n')
+		    continue;
 		memsize += FILL_SIZE;
 		char *buf = new char[FILL_SIZE];
 		cout << "Current memsize: " << memsize / 1024 / 1024 << "MB";
-		getchar();
+		//getchar();
 	}
 }
 
@@ -44,10 +46,12 @@ void fuckMemory()
 	memsize = 0;
 	while(1)
 	{
+		if(getchar() != '\n')
+			continue;
 		memsize += FILL_SIZE;
 		char *buf = new char[FILL_SIZE];
 		memset (buf,rand()%255, FILL_SIZE);
 		cout << "Current memsize: " << memsize / 1024 / 1024 << "MB";
-		getchar();
+		//getchar();
 	}
 }

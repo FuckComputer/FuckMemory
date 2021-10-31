@@ -47,7 +47,7 @@ pacman -R fuckmemory
 as root to uninstall it.
 
 ## Usage
-WIP
+Work In Progress
 
 ## License
 GPL-3.0

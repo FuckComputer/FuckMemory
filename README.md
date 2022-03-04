@@ -47,7 +47,20 @@ pacman -R fuckmemory
 as root to uninstall it.
 
 ## Usage
-Work In Progress
+
+#### Linux
+
+- choose default memory size.
+- > use default memory size as small as possible. You can calculate the suggestion size with this:
+Physical Memory (GiB) / 2 = suggestion size (MiB)
+
+- start to fill.
+
+- (optional) open your perfmance monitor in order to check the memory status
+
+- when the swap close to filled up, press enter faster 
+
+- enjoy your fucked computer
 
 ## License
 GPL-3.0
